@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<!--V2 8 column page -->
+<!--[if IE 8]>    <html lang="en-us" class="no-js ie8 oldie"> <![endif]-->
+<!--[if IE 9]>    <html lang="en-us" class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en-nz" class="no-js modern"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Computer Science and Software Engineering | University of Canterbury</title>     
+<!-- Meta keywords & description -->
+<meta name="keywords" content="Canterbury, computer science, software engineering, home page" />
+<meta name="description" content="Computer Science and Software Engineering are about designing computer systems to help people do their work efficiently and effectively." />
+
+<!-- Facebook open graph metadata -->
+<meta property="fb:app_id" content="140586622674265" />
+<meta property="og:site_name" content="The University of Canterbury" />
+<meta property="og:type"   content="website" /> 
+<meta property="og:url" content="https://www.canterbury.ac.nz/engineering/schools/csse/" />
+<meta property="og:title" content="Computer Science and Software Engineering" />
+<meta property="og:description" content="Computer Science and Software Engineering are about designing computer systems to help people do their work efficiently and effectively." />
+
+<!-- Twitter cards metadata -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@UCNZ" />
+<meta name="twitter:title" content="Computer Science and Software Engineering" />
+<meta name="twitter:description" content="Computer Science and Software Engineering are about designing computer systems to help people do their work efficiently and effectively." />
+
+<!-- DC metadata -->
+<meta name="DC.language" content="en-nz" />
+<meta name="DC.publisher" content="The University of Canterbury" />
+<meta name="DC.rights" content="http://www.canterbury.ac.nz/irm/copyright/" />
+<meta name="DC.title" content="Computer Science and Software Engineering" />
+<meta name="DC.keywords" content="Canterbury, computer science, software engineering, home page" />
+<meta name="DC.description" content="Computer Science and Software Engineering are about designing computer systems to help people do their work efficiently and effectively." />
+<meta name="DC.Date.modified" content="2017-01-26 12:42:29" />
+
+<!-- UC metadata -->
+<meta name="UC.department" content="Computer science and Software engineering" />
+
+<!-- Other metadata -->
+
+<script type="text/javascript">
+var addthis_config =
+{
+   ui_tabindex: 0
+}
+</script>
+<script async type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-540643872df247ef"></script>
+<!-- HEADER -->
+<!-- HEADER -->
+	<!-- FB Instant Articles Publisher -->
+	<meta property="fb:pages" content="140904629326800" />
+	<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48371632-1', 'auto');
+      ga('send', 'pageview');
+	</script>
+
+    <script>     
+    /*<![CDATA[*/
+    (function() {
+    var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+    sz.src = '//siteimproveanalytics.com/js/siteanalyze_78846.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+    })();
+    /*]]>*/
+    </script>
+
+
+	<!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '990527547732713');
+    fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=990527547732713&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+	<!-- Crazy Egg Tracking code -->
+	<script type="text/javascript">
+    setTimeout(function(){var a=document.createElement("script");
+    var b=document.getElementsByTagName("script")[0];
+    a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0041/8605.js?"+Math.floor(new Date().getTime()/3600000);
+    a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+    </script> 
+	<!-- End Crazy Egg Tracking code -->
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TNGVT97');</script>
+    <!-- End Google Tag Manager -->
+
+<link rel="shortcut icon" href="https://static.canterbury.ac.nz/frontend/ui/images/favicon.png">
+
+<link rel="stylesheet" type="text/css" href="https://static.canterbury.ac.nz/frontend/ui/vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://static.canterbury.ac.nz/frontend/ui/css/main-uc.css">
+
+<!-- JS -->
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/jquery-1.11.3.min.js"></script>  
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/html5shiv-master/dist/html5shiv.min.js"></script>
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/respond-master/dest/respond.min.js"></script>
+<link href="https://static.canterbury.ac.nz/frontend/ui/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="https://www.canterbury.ac.nz/media/uc-hp/admin/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script type="text/javascript" src="https://www.canterbury.ac.nz/media/uc-hp/admin/respond.proxy.js"></script>
+<![endif]-->
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="https://static.canterbury.ac.nz/frontend/ui/vendor/js/selectivizr.js"></script>
+<![endif]-->
+</head>
+
+<body class="secondary-nav">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNGVT97" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="skip-link" role="navigation">
+    <a href="#main" accesskey="["><span>Skip to main content</span></a>
+</div><nav class="navbar mega-menu uc-nav navbar-inverse" role="navigation" id="existing-menu">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://www.canterbury.ac.nz/"><span class="sr-only">Return to the homepage</span></a>
+      <div class="uc-nav-buttons">
+        <a href="https://www.canterbury.ac.nz/search/"><button type="button" class="search mobile">
+          <span class="glyphicon glyphicon-search"></span>				
+        </button></a>     
+        <!--old search with toggle-->
+        <!--<button type="button" class="search mobile" data-toggle="collapse" data-target="#uc-mobile-search">
+          <span class="sr-only">Show search</span>
+          <span class="glyphicon glyphicon-search"></span>		
+        </button>-->       
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#uc-topnav">
+          <span class="sr-only">collapse</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button> 
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="uc-mobile-search">
+      <ul class="mobile-search">
+        <li>
+          <form action="https://www.canterbury.ac.nz/search" method="get" class="navbar-form navbar-right search" role="search">
+            <div class="input-group">
+              <label for="menu-site-search" class="sr-only">Search this site</label>
+              <input name="q" type="search" id="menu-site-search" class="form-control" placeholder="Search this site">
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-default">
+                  <span class="sr-only">Show search</span>
+                  <span class="glyphicon glyphicon-search"></span>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+    <!-- TOP SECONDARY NAVIGATION -->
+
+    <div class="collapse navbar-collapse" id="uc-topnav">
+
+
+
+      <!-- MAIN NAVIGATION WITH MEGA-MENUS -->
+      <!-- DONT USE data-toggle="dropdown" on these menu items. A custom jQuery selector is in use. -->    
+
+      <ul class="nav navbar-nav navbar-right" id="uc-topsubnav">		  
+        <li><a href="https://www.canterbury.ac.nz/library/">Library</a></li>
+        <li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Colleges and departments <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.canterbury.ac.nz/arts/">College of Arts</a></li>
+            <li><a href="https://www.canterbury.ac.nz/business-and-law/">College of Business and Law</a></li>
+            <li><a href="https://www.canterbury.ac.nz/education/" >College of Education, Health and Human Development</a></li>
+            <li><a href="https://www.canterbury.ac.nz/engineering/">College of Engineering</a></li>
+            <li><a href="https://www.canterbury.ac.nz/science/">College of Science</a></li>
+            <li><a href="https://www.canterbury.ac.nz/departments-colleges/" >All departments</a></li>
+          </ul>
+        </li>
+        <li><a href="https://www.canterbury.ac.nz/staff/" >Staff</a></li>
+        <li><a href="https://www.canterbury.ac.nz/joinus/" >Work at UC</a></li>
+        <li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="https://www.canterbury.ac.nz/about/" >About UC <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.canterbury.ac.nz/get-started/why-uc/">What is special about UC</a></li>
+            <li><a href="https://www.canterbury.ac.nz/about/uc7/">UC7</a></li>
+            <li><a href="https://www.canterbury.ac.nz/about/ako/">Ako - Learning &amp; Teaching</a></li>
+            <li><a href="https://www.canterbury.ac.nz/about/governance/">Governance</a></li>
+            <li><a href="https://www.canterbury.ac.nz/about/leadership/">Leadership</a></li>
+            <li><a href="https://www.canterbury.ac.nz/about/health-and-safety/">Health and Safety</a></li>
+            <li><a href="https://www.canterbury.ac.nz/about/hr/">Human Resources</a></li>
+            <li><a href="https://www.canterbury.ac.nz/about/capitalworks/">Capital Works</a></li>
+            <li><a href="https://www.canterbury.ac.nz/about/history/">History</a></li>
+            <li><a href="//www.canterbury.ac.nz/irm/">Information and Records Management</a></li>
+            <li><a href="https://www.canterbury.ac.nz/about/contacts/">Contacts</a></li>
+          </ul>
+        </li>
+        <li><a href="https://www.canterbury.ac.nz/news/">News</a></li>
+        <li><a href="https://www.canterbury.ac.nz/events/" >Events</a></li>
+        <li><a href="https://www.canterbury.ac.nz/maps/" >Maps</a></li>
+        <li class="drop-from-right-md">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="https://www.canterbury.ac.nz/login/" >Logins <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://learn.canterbury.ac.nz/">LEARN</a></li>
+            <li><a href="https://www.outlook.com/uclive.ac.nz">Student email</a></li>
+            <li><a href="https://exchange.canterbury.ac.nz/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fexchange.canterbury.ac.nz%2fowa%2f">Postgraduate email</a></li>
+            <li><a href="https://myuc.canterbury.ac.nz/">myUC</a></li>
+            <li><a href="https://mytimetable.canterbury.ac.nz/aplus/student">My Timetable</a></li>
+            <li><a href="https://canterburycardaccount.canterbury.ac.nz/EQWebClient/">Canterbury Card Account</a></li>
+            <li><a href="https://ipac.canterbury.ac.nz/ipac20/ipac.jsp?&profile=a&menu=account#focus?">My Library Account</a></li>
+            <li><a href="https://onedrive.live.com/about/en-nz/">OneDrive</a></li>
+            <li><a href="https://careerhub.canterbury.ac.nz/students/login?ReturnUrl=%2f">UC CareerHub</a></li>
+            <li><a href="https://assist.canterbury.ac.nz/selfservice/application/assystNET.jsp#">Assyst Self Service</a></li>
+            <li><a href="https://ras.canterbury.ac.nz/">My IT Account</a></li>
+            <li><a href="https://password.canterbury.ac.nz/ForgotPassword.aspx">Password Reset</a></li>
+            <li><a href="https://hs.canterbury.ac.nz/Suite/" target="_blank">Health &amp; Safety RMSS</a></li>
+
+
+            <li><a href="https://intranet.canterbury.ac.nz/staff.shtml">Staff logins</a></li>
+            <li><a href="https://www.canterbury.ac.nz/login/more-logins/">More logins</a></li>
+          </ul>
+        </li>
+        <li id="uc-topnav-search">
+          <a href="https://www.canterbury.ac.nz/s/search.html?collection=uc-meta">
+            <span class="glyphicon glyphicon-search"></span>
+          </a>
+          
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right" id="uc-bottomnav">
+			<li class="dropdown mega-menu-fw">			
+			  <a class="dropdown-toggle" data-toggle="-dropdown" href="#">
+				<i class="fa fa-caret-down"></i>
+				<div class="nav-text text-center">Get started<br/>
+				  <span class="main-menu-sub-text" lang="mi">Pitopito kōrero</span>
+				</div>
+			  </a>
+
+          <ul class="dropdown-menu">
+            <li>
+
+              <!-- Content container to add padding -->
+              <div class="mega-menu-content">
+			  	<div class="row">
+				  <div class="col-lg-12">
+				    <div class="mm-ttl"><a href="https://www.canterbury.ac.nz/get-started/">Get Started</a></div>
+				  </div>
+				</div>
+                <div class="row">
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="https://www.canterbury.ac.nz/get-started/why-uc/">What is special about UC?</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/study/subjects/">Subjects</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/study/qualifications-and-courses/">Qualifications and courses</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/get-started/transition/">Transition programmes</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/get-started/fees/">Fees and funding</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/get-started/scholarships/">Scholarships</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/international/">International students</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/engage/school-resources/liaison/stay-in-touch/">Stay In Touch</a></li>
+                  </ul>                                      
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="https://www.canterbury.ac.nz/enrol/">Enrolling</a></li>
+                    <li><a href="//myuc.canterbury.ac.nz/">Re-enrol</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/enrol/">Enrolment changes</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/get-started/summer-school/">Summer School</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/events/tours-and-events/">Future student events</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/about/contacts/">Contacts</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/support/get-support/parents-and-whanau/">Parents and whānau info</a></li>
+                  </ul>
+
+                  <div class="col-sm-12 col-md-15 quick-links">
+                    <ul class="other-links list-unstyled">
+                      <li class="other-links-title">Quick Links</li>
+                      <li><a href="https://www.canterbury.ac.nz/get-started/fees/fees-free/"><i class="fa fa-dollar"></i>Free Fees at UC</a></li>
+                      <li><a href="//myuc.canterbury.ac.nz/"><i class="fa fa-sign-out"></i>Enrol now with myUC</a></li>
+                      <li><a href="//myuc.canterbury.ac.nz/"><i class="fa fa-rotate-right"></i>Re-enrol now with myUC</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/get-started/summer-school/"><i class="fa fa-sun-o"></i>Summer School</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/events/tours-and-events/open-days/"><i class="fa fa-calendar"></i>Open days and events</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/enrol/contact/"><i class="fa fa-group"></i>Contact Centre</a></li>
+                      <li><a href="//myuc.canterbury.ac.nz/"><i class="fa fa-laptop"></i>myUC</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/engage/school-resources/liaison/"><i class="fa fa-info-circle"></i>Liaison Office</a></li>
+                    </ul>               
+                  </div>
+                </div>
+              </div>                            
+
+            </li>
+          </ul>                </li>
+          <li class="dropdown mega-menu-fw">			
+			<a class="dropdown-toggle" data-toggle="-dropdown" href="#">
+			  <i class="fa fa-caret-down"></i>
+				<div class="nav-text text-center">Study<br/>
+				<span class="main-menu-sub-text" lang="mi">Akoranga</span>
+				</div>
+             </a>
+          <ul class="dropdown-menu">
+            <li>
+
+              <!-- Content container to add padding -->
+              <div class="mega-menu-content">
+			  	<div class="row">
+				  <div class="col-lg-12">
+				    <div class="mm-ttl"><a href="https://www.canterbury.ac.nz/study/">Study</a></div>
+				  </div>
+				</div>
+                <div class="row">
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="https://www.canterbury.ac.nz/study/subjects/">Subjects</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/study/qualifications-and-courses/">Courses and qualifications</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/departments-colleges/">Colleges and departments</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/get-started/scholarships/">Scholarships</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/study/examinations/">Examinations</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/study/graduation/">Graduation</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/postgraduate/">Postgraduate study</a></li>
+
+                  </ul>
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="https://www.canterbury.ac.nz/study/keydates/">Key dates</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/publications/">Publications</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/study/study-abroad-and-exchange/">Study abroad and exchanges</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/careers/students/work-integrated-learning/">Work integrated learning</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/support/academic/">Academic support</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/study/special-consideration/">Special consideration</a></li>
+					<li><a href="https://www.canterbury.ac.nz/study/graduate-profile/">Graduate Profile</a></li>
+                  </ul>
+
+                  <div class="col-sm-12 col-md-15 quick-links">
+                    <ul class="other-links list-unstyled">
+                      <li class="other-links-title">Quick Links</li>
+                      <li><a href="http://learn.canterbury.ac.nz/"><i class="fa fa-book"></i>LEARN</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/login/"><i class="fa fa-laptop"></i>Logins</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/study/timetables/"><i class="fa fa-calendar"></i>Timetables</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/library/"><i class="fa fa-bank"></i>Library</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/get-started/scholarships/"><i class="fa fa-graduation-cap"></i>Scholarships</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/study/transcripts/"><i class="fa fa-file-text-o"></i>Transcripts</a></li>                    
+                      <li><a href="https://www.canterbury.ac.nz/study/grading-scale/"><i class="fa fa-star-half-o"></i>Grading</a></li>                    
+                    </ul> 
+
+
+                  </div>
+                </div>
+              </div>                            
+
+            </li>
+          </ul>                </li>
+          <li class="dropdown mega-menu-fw">			
+			<a class="dropdown-toggle" data-toggle="-dropdown" href="#">
+			  <i class="fa fa-caret-down"></i>
+			  <div class="nav-text text-center">Life at UC<br/>
+			  <span class="main-menu-sub-text" lang="mi">Te ao o UC</span>
+			  </div>
+			</a>
+          <ul class="dropdown-menu">
+            <li>
+
+              <!-- Content container to add padding -->
+              <div class="mega-menu-content">
+			  	<div class="row">
+				  <div class="col-lg-12">
+				    <div class="mm-ttl"><a href="https://www.canterbury.ac.nz/life/">Life at UC</a></div>
+				  </div>
+				</div>
+                <div class="row">
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="https://www.canterbury.ac.nz/life/the-campus/">The campus</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/life/facilities/">Facilities</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/life/sustainability/">Getting around</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/life/studentlife/">Student life</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/life/accommodation/">Accommodation</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/support/">Support services</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/life/sustainability/">Sustainability</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/support/concerns/students/student-code-of-conduct/">Know The Code</a></li>
+                  </ul>                                      
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="//ucsa.org.nz/">UC Students' Association (UCSA)</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/life/co-curricular-record-ccr/">CCR</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/life/goldenkey/">Golden Key</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/health-safety-and-wellbeing/">Health, safety and wellbeing</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/life/christchurch/">Life in CHCH</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/life/nz/">Life in NZ</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/life/get-active/">Get active</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/life/canterburycard/">Canterbury Card</a></li>
+                  </ul>
+
+
+                  <div class="col-sm-12 col-md-15 quick-links">
+                    <ul class="other-links list-unstyled">
+                      <li class="other-links-title">Quick Links</li>
+                      <li><a href="https://www.canterbury.ac.nz/ucgo/"><i class="fa fa-mobile"></i>UCGo</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/maps/"><i class="fa fa-map"></i>Maps</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/life/parking/"><i class="fa fa-car"></i>Parking</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/healthcentre/"><i class="fa fa-medkit"></i>Health Centre</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/ucreccentre/"><i class="fa fa-soccer-ball-o"></i>UC RecCentre</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/events/list-events/"><i class="fa fa-calendar"></i>Student events</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/life/studentlife/clubs/"><i class="fa fa-group"></i>Clubs and societies</a></li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>                            
+
+            </li>
+          </ul>                </li>
+		  <li class="dropdown mega-menu-fw">			
+			<a class="dropdown-toggle" data-toggle="-dropdown" href="#">
+			  <i class="fa fa-caret-down"></i>
+				<div class="nav-text text-center">Support services<br/>
+				<span class="main-menu-sub-text" lang="mi">Tautoko</span>
+				</div>
+			</a>
+          <ul class="dropdown-menu">
+            <li>
+
+              <!-- Content container to add padding -->
+              <div class="mega-menu-content">
+			  	<div class="row">
+				  <div class="col-lg-12">
+				    <div class="mm-ttl"><a href="https://www.canterbury.ac.nz/support/">Support services</a></div>
+				  </div>
+				</div>
+                <div class="row">
+
+					<ul class="col-sm-6 col-md-15 list-unstyled">
+					  <li><a href="https://www.canterbury.ac.nz/support/get-support/">Finding support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/needtotalk/">Need to talk?</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/health/">Health and wellbeing</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/academic/">Academic support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/equity-disability/">Disability support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/financial-assistance/">Financial assistance</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/concerns/">Academic grievances</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/equity/">Equity and diversity</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/get-support/parents-and-whanau/">Parents and whānau</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/careers/">Job and careers advice</a></li>
+					</ul>                                      
+					<ul class="col-sm-6 col-md-15 list-unstyled">
+					  <li><a href="https://www.canterbury.ac.nz/support/get-support/new/">New student support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/current-students/">Current student support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/postgraduate/">Postgraduate student support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/get-support/high-school/">High school student support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/get-support/adult/">Adult student support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/international/">International student support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/get-support/lgbtqi/">LGBTQI student support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/akonga-maori/">Māori student support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/get-support/pasifika/">Pasifika student support</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/onsite-services/">Onsite services</a></li>           
+					</ul>
+
+				  <div class="col-sm-12 col-md-15 quick-links">
+					<ul class="other-links list-unstyled">
+                      <li class="other-links-title">Quick Links</li>
+                      <li><a href="https://www.canterbury.ac.nz/emergency/"><i class="fa fa-exclamation-triangle"></i>In an emergency</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/campus-services/security/"><i class="fa fa-male"></i>Security</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/support/concerns/"><i class="fa fa-commenting-o"></i>Raise a concern</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/its/"><i class="fa fa-laptop"></i>IT Services</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/support/asc/"><i class="fa fa-graduation-cap"></i>Academic Skills Centre</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/library/support/"><i class="fa fa-bank"></i>Library (support)</a></li>
+					  <li><a href="https://www.canterbury.ac.nz/support/contact-us/"><i class="fa fa-group"></i>Contacts</a></li>
+					</ul>
+				  </div>
+                </div>
+              </div>                            
+
+            </li>
+          </ul>                </li>
+		  <li class="dropdown mega-menu-fw">			
+			<a class="dropdown-toggle" data-toggle="-dropdown" href="#">
+			  <i class="fa fa-caret-down"></i>
+			    <div class="nav-text text-center">Research<br/>
+			    <span class="main-menu-sub-text" lang="mi">Rangahau</span>
+			    </div>
+			</a>
+          <ul class="dropdown-menu">
+            <li>
+
+              <!-- Content container to add padding -->
+              <div class="mega-menu-content">
+			  	<div class="row">
+				  <div class="col-lg-12">
+				    <div class="mm-ttl"><a href="https://www.canterbury.ac.nz/research/">Research</a></div>
+				  </div>
+				</div>
+                <div class="row">
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="https://www.canterbury.ac.nz/research/become-a-research-student/">Become a research student</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/research/find-a-supervisor/">Find a supervisor</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/postgraduate/">Postgraduate study</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/research/specialties/">Research specialties</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/research/facilities-and-equipment/">Facilities and equipment</a></li>
+                    
+                    <li><a href="https://www.canterbury.ac.nz/research/institutes-and-centres/">Centres, groups, institutes</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/research/inland-revenue/">IRD approved research provider</a></li>
+                  </ul>                                      
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="https://www.canterbury.ac.nz/research/ip-commercialisation/">IP Commercialisation</a></li>
+                    <li><a href="//researchprofile.canterbury.ac.nz/">Find an expert or consultant</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/research/why-our-research-matters/">Research in the community</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/joinus/">Working in research</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/research/news/">News, innovations and awards</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/research/contact-us/">Research & Innovation people</a></li>
+                  </ul>
+
+                  <div class="col-sm-12 col-md-15 quick-links">
+
+                    <ul class="other-links list-unstyled">
+                      <li class="other-links-title">Quick Links</li>
+                      <li><a href="//researchprofile.canterbury.ac.nz/"><i class="fa fa-graduation-cap"></i>Find an expert</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/research/find-a-supervisor/"><i class="fa fa-group"></i>Find a supervisor</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/joinus/"><i class="fa fa-bank"></i>Jobs at UC</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/humanethics/"><i class="fa fa-group"></i>Ethics approval</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/postgraduate/forms/"><i class="fa fa-file-text-o"></i>Postgraduate forms</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/library/support/research-support/"><i class="fa fa-bank"></i>Library (research)</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>                            
+
+            </li>
+          </ul>                </li>
+		  <li class="dropdown mega-menu-fw">			
+			<a class="dropdown-toggle" data-toggle="-dropdown" href="#">
+			<i class="fa fa-caret-down"></i>
+			  <div class="nav-text text-center">Engage with UC<br/>
+			  <span class="main-menu-sub-text" lang="mi">Tūhono mai</span>
+			</div>
+			</a>
+          <ul class="dropdown-menu">
+            <li>
+
+              <!-- Content container to add padding -->
+              <div class="mega-menu-content">
+			  	<div class="row">
+				  <div class="col-lg-12">
+					<div class="mm-ttl"><a href="https://www.canterbury.ac.nz/engage/">Engage with UC</a></div>
+				  </div>
+				</div>
+                <div class="row">
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="https://www.canterbury.ac.nz/engage/business/">Business and industry</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/alumni/">Alumni</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/alumni/give/">Giving to UC</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/joinus/">Work at UC</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/careers/services-for-employers/internships-and-engagement/">Work placements</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/communications/">Communications and Engagement</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/engage/cup/">Canterbury University Press</a></li>
+                  </ul>                                      
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="https://www.canterbury.ac.nz/engage/partnerships/">International partnerships</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/engage/community-programmes/">Community programmes</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/engage/school-resources/">School resources</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/research/find-a-supervisor/">Find an expert or consultant</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/news/">News</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/study/examinations/examination-invigilation-for-external-institutions/">External exam invigilation</a></li>
+                  </ul>
+
+                  <div class="col-sm-12 col-md-15 quick-links">
+                    <ul class="other-links list-unstyled">
+                      <li class="other-links-title">Quick Links</li>
+                      <li><a href="https://www.canterbury.ac.nz/uc-foundation/donate-now/"><i class="fa fa-dollar"></i>Donate to UC</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/find-uc-staff/DirectorySearch.aspx"><i class="fa fa-group"></i>Contact UC</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/joinus/"><i class="fa fa-file-text-o"></i>Current vacancies</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/engage/erskine/"><i class="fa fa-group"></i>Erskine Fellowship</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/news/"><i class="fa fa-newspaper-o"></i>News</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/events/"><i class="fa fa-calendar"></i>Public events</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/engage/school-resources/liaison/"><i class="fa fa-info-circle"></i>Liaison Office</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>                            
+
+            </li>
+          </ul>
+        </li>
+		<li class="dropdown mega-menu-fw">			
+		  <a class="dropdown-toggle" data-toggle="-dropdown" href="#">
+		  <i class="fa fa-caret-down"></i>
+			<div class="nav-text text-center">Enrol at UC <br/>
+			<span class="main-menu-sub-text" lang="mi">Whakauru mai</span>
+			</div>
+		  </a>
+          <ul class="dropdown-menu">
+            <li>
+
+              <!-- Content container to add padding -->
+              <div class="mega-menu-content">
+			  	<div class="row">
+				  <div class="col-lg-12">
+					<div class="mm-ttl"><a href="https://www.canterbury.ac.nz/enrol/">Enrol at UC</a></div>
+				  </div>
+				</div>
+                <div class="row">
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="https://www.canterbury.ac.nz/enrol/">Enrolment process</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/study/keydates/">Application dates</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/enrol/eligibility/">Check eligibility</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/enrol/docs/">Document requirements</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/enrol/international/">International student enrolment</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/enrol/undergraduate/">Undergraduate applications</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/enrol/postgraduate/">Grad and postgrad applications</a></li>
+                  </ul>                                      
+
+                  <ul class="col-sm-6 col-md-15 list-unstyled">
+                    <li><a href="https://www.canterbury.ac.nz/enrol/doctoral/">PhD and doctoral degrees applications</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/get-started/transition/apply/">Transition programmes applications</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/enrol/special/">Special applications</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/enrol/transfer/">Transfer credits</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/enrol/change/">Check or change your application</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/enrol/myuc-address/">Change address</a></li>
+                    <li><a href="https://www.canterbury.ac.nz/enrol/contact/">Contact us</a></li>
+                  </ul>
+
+                  <div class="col-sm-12 col-md-15 quick-links">
+                    <ul class="other-links list-unstyled">
+                      <li class="other-links-title">Quick Links</li>
+                      <li><a href="//myuc.canterbury.ac.nz/"><i class="fa fa-sign-out"></i>Enrol now with myUC</a></li>
+                      <li><a href="//myuc.canterbury.ac.nz/"><i class="fa fa-rotate-right"></i>Re-enrol now with myUC</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/study/qualifications-and-courses/"><i class="fa fa-graduation-cap"></i>Qualifications and courses</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/get-started/fees/"><i class="fa fa-dollar"></i>Fees and funding</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/get-started/scholarships/"><i class="fa fa-graduation-cap"></i>Scholarships</a></li>
+                      <li><a href="https://www.canterbury.ac.nz/study/transcripts/"><i class="fa fa-file-text-o"></i>Transcripts</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>                            
+            </li>
+          </ul>
+        </li>
+      </ul>                
+    </div>
+  </div>
+</nav>
+<div id="deptheader">
+    <div class="container dept-container">
+        <div class="row dept-bg-image">
+            <div class="col-sm-12">
+                <a href="https://www.canterbury.ac.nz/engineering/schools/csse/" class="dept-logo">
+                    <img src="https://www.canterbury.ac.nz/engineering/schools/csse/department-header/uc-computer-science-software.png" alt="College of Engineering - icon - Computer Science" style="    " class=""  />
+                </a>
+            </div>
+        </div>
+    </div>
+</div> 
+<div class="dept-content uc-dept-content">
+<style>
+#nav-sidebar li.active > div a,#nav-sidebar li.active > div span,#nav-sidebar li.active > div span.button:after,#nav-sidebar > ul > li.active > a{background:transparent}.uc-dept-content .nav-sidebar-header > a:hover{color:#666699 !important}footer{border-top:4px solid #666699}.uc-dept-content .nav-sidebar.alt button:after,.uc-dept-content .nav-sidebar.alt span.button:after,.uc-dept-content .nav-sidebar.alt .nav-sidebar-dropdown a:hover,.uc-dept-content .nav-sidebar.alt .nav-sid.uc-dept-content .nav-sidebar.alt .nav-sidebar-dropdown a:hover,.uc-dept-content .nav-sidebar.alt .nav-sidebar-header.second-level a:hoebar-header.second-level a:hover,.uc-dept-content .nav-sidebar.alt .nav-sidebar-dropdown a:hover,.uc-dept-content .nav-sidebar.alt .nav-sidebar-header.second-level a:hover{color:#666699}.uc-dept-content .nav-sidebar.alt .nav-sidebar-dropdown a:hover,.uc-dept-content .nav-sidebar.alt .nav-sidebar-header.second-level a:hover,.uc-dept-content .nav-sidebar.alt button:after,.uc-dept-content .nav-sidebar.alt span.button:after,.uc-dept-content .nav-title a,.uc-dept-content .nav-title a{color:#666699}.uc-dept-content #nav-sidebar li.active > div a,.uc-dept-content #nav-sidebar li.active > div span,.uc-dept-content #nav-sidebar li.active > div span.button:after,.uc-dept-content #nav-sidebar > ul > li.active > a,.uc-dept-content .nav-sidebar.alt .nav-sidebar-dropdown.subsubmenu li a:focus,.uc-dept-content .nav-sidebar.alt .nav-sidebar-dropdown.subsubmenu li a:active,.nav-sidebar-dropdown li.active > a{background:#666699}.nav-sidebar-dropdown li.active > a,.nav-sidebar-dropdown li.active > a:hover{color:#fff !important;background:#666699 !important}.uc-dept-content .nav-sidebar.alt li.active li .nav-sidebar-header.second-level a:hover{background:#E8E8E8 !important}.uc-dept-content #nav-sidebar li.active > div a:hover{color:#fff !important} @media (max-width: 1200px){
+.dept-header .dept-bg-image {background: none!important;}
+}
+</style>
+<script>
+$("#deptheader").addClass("dept-bg-repeat dept-header");var deptcolour='#666699';var deptnewbg='https://www.canterbury.ac.nz/media/uc-hp/departments/csse-background.png';$(".dept-header .dept-bg-image").css('background-image','url('+deptnewbg.replace(/&amp;/g,'&')+')');
+</script>
+  
+
+<div class="content container">
+<div class="row">
+<aside class="col-sm-4 col-md-3 sidebar-col" id="secondary-nav">
+   <p class="sr-only">Use the Tab and Up, Down arrow keys to select menu items.</p>
+   <nav role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div id="nav-sidebar" class="nav-sidebar alt"  role="navigation">
+         <div>
+<ul>
+<li class="nav-title"><a href="https://www.canterbury.ac.nz/engineering/">College of Engineering</a></li>
+</ul>
+<button type="button" class="navbar-toggle collapsed sidebar-toggle transitioning open" data-toggle="collapse" id="collapseMenu" data-target=".navbar-collapse-2">
+          <span class="sr-only">Toggle navigation</span>
+        </button></div>
+
+<ul class="navbar-collapse-new">
+<li ><a href="https://www.canterbury.ac.nz/engineering/subjects/">Subjects</a></li><li >
+<div class="nav-sidebar-header">
+                  <a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/"> Qualifications and courses
+                        <span role="button" class="button " aria-expanded="true" aria-controls="submenu-1"> </span> 
+                         </a>      
+</div><ul role="menu" id="submenu-1" aria-hidden="false" class="nav-sidebar-dropdown"><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/engineering/"> Engineering
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-0"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-0" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/engineering/engineering-course-planner/">Engineering Course Planner</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/engineering/engineering-intermediate-year/">Engineering Intermediate Year</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/engineering/industry-and-work-experience/">Industry and work experience</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/engineering/diploma-in-global-humanitarian-engineering/">Diploma in Global Humanitarian Engineering</a></li></ul></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/forestry/">Forestry Science</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/postgraduate-information/">Postgraduate information</a></li><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/mem/"> Master of Engineering in Management
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-3"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-3" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/mem/about-the-mem/">About the MEM</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/mem/entry-requirements-and-enrolment/">Entry requirements and enrolment</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/mem/alumni-and-careers/">Alumni and careers</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/mem/contact-us/">Contact us</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/qualifications-and-courses/mem/industry-collaboration/">Industry Collaboration</a></li></ul></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/school-of-product-design/">Product Design</a></li></ul></li><li >
+<div class="nav-sidebar-header">
+                  <a href="https://www.canterbury.ac.nz/engineering/schools/"> Schools and departments
+                        <span role="button" class="button open" aria-expanded="true" aria-controls="submenu-2"> </span> 
+                         </a>      
+</div><ul role="menu" id="submenu-2" aria-hidden="false" class="nav-sidebar-dropdown"><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/schools/school-of-engineering/"> School of Engineering
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-0"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-0" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cape/">Chemical and Process Engineering</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cnre/">Civil and Natural Resources Engineering</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/csse/">Computer Science and Software Engineering</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/ece/">Electrical and Computer Engineering</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/">Mechanical Engineering</a></li></ul></li><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/schools/cape/"> Chemical and Process Engineering
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-1"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-1" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cape/undergraduate-study-and-courses/">Undergraduate study and courses</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cape/minor-in-bioprocess-engineering/">Minor in Bioprocess Engineering</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cape/minor-in-energy-processing-technologies/">Minor in Energy Processing Technologies</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cape/postgraduate-study-and-research/">Postgraduate study and research</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cape/research/">Research</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cape/health-and-safety/">Health and safety</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cape/our-people/">Our people</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cape/cape-75-year-anniversary/">CAPE 75 Year Anniversary</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cape/contact-us/">Contact us</a></li></ul></li><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/schools/cnre/"> Civil and Natural Resources Engineering
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-2"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-2" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cnre/undergraduate-study-options/">Undergraduate study options</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cnre/postgraduate-study-options/">Postgraduate study options</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cnre/student-advice-and-support/">Student advice and support</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cnre/research-groups-and-partnerships/">Research groups and partnerships</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cnre/industry-links-and-collaborations/">Industry links and collaborations</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cnre/facilities/">Facilities</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cnre/contact-us/">Contact us</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/cnre/news/">News</a></li></ul></li><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/schools/csse/"> Computer Science and Software Engineering
+                        <span role="button" class="button open" aria-expanded="true" aria-controls="subsubmenu-3"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-3" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/schools/csse/computer-science-bsc/">Computer Science (BSc)</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/csse/software-engineering-be-hons/">Software Engineering (BE Hons)</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/csse/research/">Research</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/csse/postgraduate-information/">Postgraduate information</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/csse/events-groups-and-seminars/">Events, groups and seminars</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/csse/study-with-us/">Study with us</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/csse/computer-science-education/">Computer Science Education</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/csse/industry-collaboration/">Industry collaboration</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/csse/our-people/">Our people</a></li><li class="active"><a href="http://www.csse.canterbury.ac.nz/additional/">Additional Resources</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/csse/contact-us/">Contact us</a></li></ul></li><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/schools/ece/"> Electrical and Computer Engineering
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-4"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-4" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/schools/ece/electrical-and-electronic-engineering-be-hons/">Electrical and Electronic Engineering (BE Hons)</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/ece/computer-engineering-be-hons/">Computer Engineering (BE Hons)</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechatronics/">Mechatronics (BE Hons)</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/ece/postgraduate/">Postgraduate</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/ece/research/">Research</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/ece/facilities/">Facilities</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/ece/industry-collaboration/">Industry collaboration</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/ece/student-groups-and-social-media/">Student groups and social media</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/ece/our-people/">Our People</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/ece/contact-us/">Contact us</a></li><li ><a href="http://www.epecentre.ac.nz/">EPECentre</a></li></ul></li><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/"> School of Mathematics and Statistics
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-5"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-5" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/qualifications-and-courses/">Qualifications and courses</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/student-advice-and-resources/">Student advice and resources</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/postgraduate-study-and-research/">Postgraduate study and research</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/research/">Research</a></li><li ><a href="http://www.canterbury.ac.nz/courseinfo/GetCourseDetails.aspx?course=MATH199&occurrence=18W(C)&year=2018">Secondary school programme</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/statistics-consulting/">Statistics consulting</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/announcements/">Announcements</a></li><li ><a href="http://www.canterbury.ac.nz/events/search/?eventcategory=&department=School%20of%20Mathematics%20and%20Statistics&eventname=&eventenddate=&eventdate=#ucevents">Events</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mathematics-statistics/contact-us/">Contact us</a></li></ul></li><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/"> Mechanical Engineering
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-6"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-6" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/undergraduate-study/">Undergraduate Study</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/student-advice-and-support/">Student Advice and Support</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/clubs/">Clubs and Competitions</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/postgraduate-study-and-research/">Postgraduate Study and Research</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/research/">Research</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/laboratories-and-facilities/">Laboratories and Facilities</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/industry-collaborations/">Industry Collaborations</a></li><li ><a href="http://www.mechatronics.canterbury.ac.nz/" target="_blank">Mechatronics</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/bioengineering/">Bioengineering</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/minor-in-biomedical-engineering/">Minor in Biomedical Engineering</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/beupdated/">News and Events</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/seminars/">Seminars</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/alumniupdate/">Alumni &amp; Friends</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/contact-us/">Contact us</a></li></ul></li><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/schools/mechatronics/"> Mechatronics Engineering
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-7"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-7" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechatronics/study-with-us/">Study with us</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechatronics/student-advice-and-support/">Student advice and support</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechatronics/research/">Research</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechatronics/laboratories-and-facilities/">Laboratories and facilities</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechanical/">Mechanical Engineering</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/ece/">Electrical and Computer Engineering</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/mechatronics/contact-us/">Contact us</a></li></ul></li><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/schools/forestry/"> School of Forestry
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-8"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-8" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/schools/forestry/bachelor-of-forestry-science/">Bachelor of Forestry Science</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/forestry/honours/">Bachelor of Engineering (Honours) in Forest Engineering</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/forestry/postgraduate-study-and-research/">Postgraduate study and research</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/forestry/research/">Research</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/forestry/laboratories-and-facilities/">Laboratories and facilities</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/forestry/services-and-resources/">Services and resources</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/forestry/news-and-scholarships/">Forestry News and current scholarships</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/forestry/contact-us/">Contact us</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/forestry/content-block/">Content block</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/forestry/forestry-50th-anniversary/">Forestry 50th Anniversary</a></li></ul></li><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/schools/school-of-product-design/"> School of Product Design
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-9"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-9" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/schools/school-of-product-design/applied-immersive-game-design/">Applied Immersive Game Design</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/school-of-product-design/chemical-natural-and-healthcare-product-formulation/">Chemical Natural and Healthcare Product Formulation</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/school-of-product-design/industrial/">Industrial Product Design</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/school-of-product-design/contact-us/">Contact us</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/school-of-product-design/conjoint-degrees/">Conjoint Degrees</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/schools/school-of-product-design/laboratories-and-facilities/">Laboratories and Facilities</a></li></ul></li></ul></li><li ><a href="https://www.canterbury.ac.nz/engineering/why-uc-engineering/">Why UC Engineering</a></li><li >
+<div class="nav-sidebar-header">
+                  <a href="https://www.canterbury.ac.nz/engineering/professional-development/"> Professional development
+                        <span role="button" class="button " aria-expanded="true" aria-controls="submenu-4"> </span> 
+                         </a>      
+</div><ul role="menu" id="submenu-4" aria-hidden="false" class="nav-sidebar-dropdown"><li ><a href="https://www.canterbury.ac.nz/engineering/professional-development/timetable/">Timetable</a></li></ul></li><li ><a href="https://www.canterbury.ac.nz/engineering/research/">Research</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/scholarships-and-funding/">Scholarships and funding</a></li><li >
+<div class="nav-sidebar-header">
+                  <a href="https://www.canterbury.ac.nz/engineering/information-for-schools/"> Information for schools
+                        <span role="button" class="button " aria-expanded="true" aria-controls="submenu-7"> </span> 
+                         </a>      
+</div><ul role="menu" id="submenu-7" aria-hidden="false" class="nav-sidebar-dropdown"><li ><a href="https://www.canterbury.ac.nz/engineering/information-for-schools/star-courses/">Star Courses</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/information-for-schools/wie-can/">WiE CAN</a></li></ul></li><li ><a href="https://www.canterbury.ac.nz/engineering/final-year-projects/">Final Year Projects</a></li><li >
+<div class="nav-sidebar-header">
+                  <a href="https://www.canterbury.ac.nz/engineering/industry/"> Industry
+                        <span role="button" class="button " aria-expanded="true" aria-controls="submenu-9"> </span> 
+                         </a>      
+</div><ul role="menu" id="submenu-9" aria-hidden="false" class="nav-sidebar-dropdown"><li ><a href="https://www.canterbury.ac.nz/engineering/industry/industry-contacts/">Industry Contacts</a></li></ul></li><li >
+<div class="nav-sidebar-header">
+                  <a href="https://www.canterbury.ac.nz/engineering/engineering-news/"> Engineering News
+                        <span role="button" class="button " aria-expanded="true" aria-controls="submenu-10"> </span> 
+                         </a>      
+</div><ul role="menu" id="submenu-10" aria-hidden="false" class="nav-sidebar-dropdown"><li >
+<div class="nav-sidebar-header second-level">
+                  <a href="https://www.canterbury.ac.nz/engineering/engineering-news/archive/"> Archive
+                        <span role="button" class="button " aria-expanded="true" aria-controls="subsubmenu-0"> </span> 
+                         </a>      
+</div><ul role="menu" id="subsubmenu-0" aria-hidden="false" class="nav-sidebar-dropdown subsubmenu"><li ><a href="https://www.canterbury.ac.nz/engineering/engineering-news/archive/2018/">2018</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/engineering-news/archive/2017/">2017</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/engineering-news/archive/2016/">2016</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/engineering-news/archive/2015/">2015</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/engineering-news/archive/2014/">2014</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/engineering-news/archive/2013/">2013</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/engineering-news/archive/2012/">2012</a></li></ul></li></ul></li><li ><a href="https://www.canterbury.ac.nz/engineering/contact-us/">Contact us</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/stay-connected/">Stay connected</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/virtual-tour/">Virtual Tour</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/facilities--equipment/">Facilities &amp; Equipment</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/diversity-agenda/">Diversity Agenda</a></li><li ><a href="https://www.canterbury.ac.nz/engineering/ucdronelab/">UCDroneLab</a></li></ul>
+      </div>
+   </nav>
+</aside>
+<main class="col-sm-8 col-md-9 main content-col" id="main">
+
+<!-- Produced by convert-to-t4 v2 -->
+<!-- CSSE BEGIN PAGE CONTENTS -->
+
+<!-------------------------- Begin Your Text Here -------------------------->
+
+<h1>Error 404: Page Not Found</h1>
+<p>The file or page you are looking for can not be found.</p>
+<p>You may have the wrong address or the page may have moved.</p>
+
+<p>Some possible starting points:</p>
+
+<ul>
+  <li><a href="https://www.csse.canterbury.ac.nz">Department of Computer Science and Software Engineering (CSSE) homepage.</a></li>
+  <li><a href="https://www.csse.canterbury.ac.nz/people/">Our people.</a></li>
+  <li><a href="https://www.canterbury.ac.nz/engineering/schools/csse/contact-us/">Study with us.</a></li>
+  <li><a href="https://www.canterbury.ac.nz/engineering/schools/csse/study-with-us/">Contact us.</a></li>
+</ul>
+
+<!-- CSSE END PAGE CONTENTS -->
+         </main>
+      </div>            
+   </div>
+</div>
+<!-- navigation object : Back to Top Code Include -->
+<span id="top-link-block" class="hidden">
+    <a href="javascript:void();" class="large-button btn-block chevron-button " onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+       <span class="hidden">Back to top</span>
+       <span class="arrow fa fa-chevron-up chevron-button"></span>
+    </a>
+</span>
+	<footer>
+		<div class="container">
+			  <div class="col-sm-3">
+				  <div class="brand">
+				  </div>
+			</div>
+			<div class="col-sm-3">
+            <ul>
+              <li class="header">GENERAL ENQUIRIES</li>
+			  <li><a href="tel:006433693999">+64 3 369 3999</a></li>
+              <li><a href="mailto:info@canterbury.ac.nz">info@canterbury.ac.nz</a></li>
+            </ul>
+			</div>
+			<div class="col-sm-3">
+			<ul>
+              <li class="header">ENROLMENT ENQUIRIES</li>
+			  <li><a href="tel:0800827748">0800 VARSITY (0800 827 748)</a></li>
+              <li><a href="mailto:enrol@canterbury.ac.nz">enrol@canterbury.ac.nz</a></li>
+            </ul>
+			</div>
+			<div class="col-sm-3">
+            <ul>
+              <li class="header">INTERNATIONAL ENQUIRIES</li>
+			  <li><a href="tel:006433643443">+64 3 364 3443</a></li>
+              <li><a href="tel:1800431595">(Aus) 1-800-431595</a></li>
+              <li><a href="https://www.canterbury.ac.nz/international/ask-a-question/">Ask a question</a></li>
+            </ul>
+			</div>
+		  <div class="col-sm-12">
+			<div class="hr"></div>
+		  </div>
+			  <div class="col-sm-3">
+			   <ul>
+			    <li class="header">CONTACTS & DIRECTORIES</li>
+				<li><a href="https://www.canterbury.ac.nz/find-uc-staff/DirectorySearch.aspx" >University contacts</a></li>
+				<li><a href="https://www.canterbury.ac.nz/support/get-support/new/" >Student contacts</a></li>
+				<li><a href="http://www.ucsa.org.nz/">Students' Association</a></li>             
+                <li><a href="https://www.canterbury.ac.nz/about/ssac/services-a-z/" >A–Z of Support Services</a></li> 
+				<li><a href="//researchprofile.canterbury.ac.nz">Find a researcher (Research Profile)</a></li>
+				<li><a href="https://www.canterbury.ac.nz/life/accommodation/" >Accommodation</a></li>
+                <li><a href="https://www.canterbury.ac.nz/maps/" >Campus maps</a></li>
+				<li><a href="https://www.canterbury.ac.nz/uc-foundation/donate-now">Donate online</a></li>
+			   </ul>               
+                <ul class="social-buttons">
+			   <li><a target="_blank" href="//www.facebook.com/universitycanterbury"><i aria-hidden class="fa fa-facebook-square fa-2x"></i><span class="sr-only">UC on Facebook</span></a></li>
+               <li><a target="_blank" href="//twitter.com/ucnz"><i aria-hidden class="fa fa-twitter-square fa-2x"></i><span class="sr-only">UC on Twitter</span></a></li>   
+               <li><a target="_blank" href="//www.youtube.com/user/UniversityCanterbury"><i aria-hidden class="fa fa-youtube-square fa-2x"></i><span class="sr-only">UC on youTube</span></a></li>
+			   <li><a target="_blank" href="//instagram.com/ucnz"><i aria-hidden class="fa fa-instagram fa-2x"></i><span class="sr-only">UC on Instagram</span></a></li>
+               <li><a target="_blank" href="//www.snapchat.com/add/uc.nz"><i aria-hidden class="fa fa-snapchat-square fa-2x"></i><span class="sr-only">UC on Snapchat</span></a></li>
+			   <li><a target="_blank" href="//www.linkedin.com/company/university-of-canterbury"><i aria-hidden class="fa fa-linkedin-square fa-2x"></i><span class="sr-only">UC on LinkedIn</span></a></li>
+               <li><a href="https://www.canterbury.ac.nz/international/contact-us/wechat/" ><i aria-hidden class="fa fa-weixin fa-2x"></i><span class="sr-only">UC on WeChat</span></a></li>
+			   </ul>
+			  </div>
+			<div class="col-sm-3">
+			    <ul>
+				  <li class="header">DEPARTMENTS</li>
+				  <li><a href="https://www.canterbury.ac.nz/departments-colleges/" >All departments</a></li>
+				  <li><a href="https://www.canterbury.ac.nz/arts/" >College of Arts</a></li>
+				  <li><a href="https://www.canterbury.ac.nz/business-and-law/" >College of Business and Law</a></li>
+				  <li><a href="https://www.canterbury.ac.nz/business/" >UC Business School</a></li>
+				  <li><a href="https://www.canterbury.ac.nz/education/" >College of Education, Health and Human Development</a></li>
+				  <li><a href="https://www.canterbury.ac.nz/engineering/" >College of Engineering</a></li>
+				  <li><a href="https://www.canterbury.ac.nz/education/schools-and-departments/school-of-health-sciences/" >UC Health</a></li>
+				  <li><a href="https://www.canterbury.ac.nz/law/" >School of Law</a></li>
+				  <li><a href="https://www.canterbury.ac.nz/science/" >College of Science</a></li>
+                  <li><a href="https://www.canterbury.ac.nz/departments-colleges/service-areas/" >Service areas</a></li>
+				  
+			    </ul>
+			</div>
+			<div class="col-sm-3">
+			    <ul>
+				  <li class="header">LATEST</li>
+                  <li><a href="https://www.canterbury.ac.nz/news/" >News</a></li>
+                  <li><a href="https://www.canterbury.ac.nz/events">Events</a></li>
+                  <li><a href="//blogs.canterbury.ac.nz/insiders/">Insider's guide student blog</a></li>
+                  <li><a href="//ucnow.canterbury.ac.nz/#/boards/uc-now">UCnow</a></li>
+				  <li><a href="https://www.canterbury.ac.nz/communications/chronicle/">Chronicle Magazine</a></li>
+				  <li><a href="https://www.canterbury.ac.nz/publications/">Publications</a></li>
+				  <li><a href="https://www.canterbury.ac.nz/joinus/" >Vacancies</a></li>
+			    </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul>
+                <li class="header">TOOLS</li>
+                <li><a href="//learn.canterbury.ac.nz/">LEARN</a></li>
+                <li><a href="https://www.canterbury.ac.nz/about/governance/ucpolicy/">UC Policy Library</a></li>
+				<li><a href="https://www.canterbury.ac.nz/library">Library</a></li>
+                <li><a href="//myuc.canterbury.ac.nz">myUC</a></li>
+				<li><a href="//ras.canterbury.ac.nz/">IT account</a></li>
+				<li><a href="//outlook.com/uclive.ac.nz">Student email</a></li>			
+				<li><a href="//skydrive.live.com/">OneDrive</a></li>
+				<li><a href="https://www.canterbury.ac.nz/study/timetables/" >Timetable</a></li>
+                <li><a href="//exchange.canterbury.ac.nz">Staff email</a></li>
+				<li><a href="//intranet.canterbury.ac.nz/">Intranet (Staff)</a></li>
+			  </ul>
+			</div>
+		  <div class="col-sm-12">
+			<div class="hr"></div>
+		  </div>
+			<div class="col-sm-12">
+			<ul>
+			  <li class="header line">
+                <a href="https://www.canterbury.ac.nz/theuni/copyright-and-disclaimer/" >Copyright and Disclaimer</a>
+                <a href="https://www.canterbury.ac.nz/web/feedback/">Feedback</a>
+                <!--<a href="//www.canterbury.ac.nz/help/">Help and accessibility</a>-->
+                <a href="https://www.canterbury.ac.nz/privacy">Privacy</a>
+                <a href="https://www.canterbury.ac.nz/theuni/cookies-declaration/" >Cookies Declaration</a>
+              </li>
+			</ul>
+			</div>
+          <div class="bottom">
+            <div class="col-sm-8 col-md-7">
+              <ul>
+                <li class="header"><a class="red" href="https://www.canterbury.ac.nz/emergency">Emergency Information</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-md-5">
+              <ul>
+                <li class="header">
+                   <span>© University of Canterbury - A Fair Trade University</span>
+                     <a id="womensRefuge"><img id="womens-refuge" src="https://static.canterbury.ac.nz/frontend/ui/images/shielded.png" style="cursor: pointer;"/></a>
+                     <script src="https://d3f5l8ze0o4j2m.cloudfront.net/m87/k33spt.js"></script>
+                     <script>
+                  		$( document ).ready(function() {
+                          var frameName = new ds07o6pcmkorn({
+                                 left: 300,
+                                 top: 0,
+                                 openElementId: "#womensRefuge"
+                              });
+                            frameName.init();
+                          });
+                          
+                     </script>
+                 </li>
+              </ul>
+            </div>
+          </div>
+	</div>
+</footer><link rel="stylesheet" type="text/css" href="https://static.canterbury.ac.nz/frontend/ui/vendor/bootstrap-tokenfield/dist/css/bootstrap-tokenfield.css">
+<link rel="stylesheet" type="text/css" href="https://static.canterbury.ac.nz/frontend/ui/vendor/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.css">
+<link rel="stylesheet" type="text/css" href="https://static.canterbury.ac.nz/frontend/ui/vendor/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://static.canterbury.ac.nz/frontend/ui/css/styles-uc.css">
+<link rel="stylesheet" type="text/css" href="https://static.canterbury.ac.nz/frontend/ui/vendor/fancybox/source/jquery.fancybox.css">
+
+<!--[if gte IE 9]><!-->    
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/imagesloaded.min.js"></script>
+<!--<![endif]--> 
+ 
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/shuffle/js/evenheights.js"></script>
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/dotdotdot/src/js/jquery.dotdotdot.min.js"></script>
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/readmore-master/readmore.min.js"></script>
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/jquery.matchHeight-min.js"></script>
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/fancybox/source/jquery.fancybox.pack.js"></script>
+<script src="https://static.canterbury.ac.nz/frontend/ui/js/resize.js"></script>
+
+<!-- Bootstrap js -->
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+<!--Accessibility-->
+<script src="https://static.canterbury.ac.nz/frontend/ui/js/accessibility.js"></script>
+
+
+<!-- Custom -->
+
+<!-- could potentially configure things so this is only included if needed -->
+<script src="https://static.canterbury.ac.nz/frontend/ui/js/nav-sidebar.js"></script>
+
+
+<!-- ditto --> 
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js"/></script>
+
+<!-- ditto --> 
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/bootstrap-tokenfield/dist/bootstrap-tokenfield.min.js"/></script>
+
+<script src="https://static.canterbury.ac.nz/frontend/ui/js/script.js"></script>
+
+<!--Ellipsis-->
+<script src="https://static.canterbury.ac.nz/frontend/ui/vendor/ellipsis.js"></script>
+
+
+
+
+</body>
+</html> 
+

@@ -1,6 +1,4 @@
 #!/bin/bash
-
-
 wget -O __template $1 -q
 ./http_download $1 __output
 

@@ -10,8 +10,64 @@
 #include "http.h"
 
 #define BUF_SIZE 1024
+#define HTTP_GET "GET /%s HTTP/1.0\r\nHost: %s\r\nRange: bytes=%s\r\nUser-Agent: getter\r\n\r\n"
+#define HTTP_HEAD "HEAD / HTTP/1.0\r\n\r\n"
 
 
+int create_connection(char *host, int port) {
+    struct addrinfo serv_addrinfo;
+    struct addrinfo *addr = NULL;
+    int sockfd;
+    char port_str[20];
+
+    int n = snprintf(port_str, 20, "%d", port);
+    if (n > 20 || n < 0) {
+        perror("Port Forming");
+    }
+
+    sockfd = socket(AF_INET, SOCK_STREAM, 0);
+    if (sockfd < 0) {
+        perror("socket");
+    }
+
+    memset(&serv_addrinfo, 0, sizeof(struct addrinfo));
+
+    serv_addrinfo.ai_family = AF_INET; 
+    serv_addrinfo.ai_socktype = SOCK_STREAM;
+    serv_addrinfo.ai_protocol = PF_UNSPEC;
+    
+    getaddrinfo(host, port_str, &serv_addrinfo, &addr);
+
+    if(connect(sockfd, addr->ai_addr, addr->ai_addrlen) != 0) {
+        perror("Connect");
+    }
+    
+    return sockfd;
+}
+
+
+int http_send(char *content, int sockfd) {
+    int n = write(sockfd, content, strlen(content));
+    if (n < strlen(content)) {
+        return -1;
+    }
+    return 0;
+}
+
+
+int http_recieve(Buffer *buffer, int sockfd) {
+    int n;
+    char data[BUF_SIZE];
+    do {
+        n = read(sockfd, data, BUF_SIZE);
+        if (n < 0) {
+            return -1;
+        }
+        buffer_append(buffer, data, n);
+    } while (n > 0);
+
+    return 0;
+}
 
 
 /**
@@ -28,7 +84,63 @@
  *                  NULL is returned on failure.
  */
 Buffer* http_query(char *host, char *page, const char *range, int port) {
-    assert(0 && "not implemented yet!");
+    int sockfd;
+    Buffer *request, *recieve;
+    
+    request = create_buffer(BUF_SIZE);
+    recieve = create_buffer(BUF_SIZE);
+
+    snprintf(request->data, BUF_SIZE-1, HTTP_GET, page, host, range);
+    
+    sockfd = create_connection(host, port);
+    
+    int send_status = http_send(request->data, sockfd);
+    if (send_status != 0) {
+        perror("Send query");
+    }
+
+    int recieve_status = http_recieve(recieve, sockfd);
+    if (recieve_status != 0) {
+        perror("Recieve query");
+    }
+
+    buffer_free(request);
+
+    printf("%ld\n", recieve->length);
+
+    return recieve;    
+}
+
+
+Buffer* create_buffer(size_t length) {
+	Buffer *buffer = (Buffer*)malloc(sizeof(Buffer));
+	buffer->data = (char*)malloc(sizeof(char)*length);
+	if (!buffer->data) {
+		perror("Malloc Buffer");
+	}
+	
+	memset(buffer->data, '\0', length);
+	buffer->length = 0;
+	
+	return buffer;
+}
+
+
+void buffer_append(Buffer *buffer, char *data, size_t length) {
+    char *new_data = (char*)realloc(buffer->data, length+buffer->length);
+    if (!new_data) {
+	    perror("Append Buffer");
+    }
+     
+    memset(new_data+buffer->length, '\0', length);
+    
+    void *dest = memcpy(new_data+buffer->length, data, length);
+    if (!dest) {
+        perror("Memcpy");
+    }
+
+    buffer->data = new_data;
+    buffer->length = buffer->length + length;
 }
 
 
@@ -43,6 +155,8 @@ Buffer* http_query(char *host, char *page, const char *range, int port) {
 char* http_get_content(Buffer *response) {
 
     char* header_end = strstr(response->data, "\r\n\r\n");
+
+    printf("%ld\n", response->length);
 
     if (header_end) {
         return header_end + 4;

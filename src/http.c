@@ -11,7 +11,7 @@
 
 #define BUF_SIZE 1024
 #define HTTP_GET "GET /%s HTTP/1.0\r\nHost: %s\r\nRange: bytes=%s\r\nUser-Agent: getter\r\n\r\n"
-#define HTTP_HEAD "HEAD / HTTP/1.0\r\n\r\n"
+#define HTTP_HEAD "HEAD /%s HTTP/1.0\r\nHost: %s\r\n\r\n"
 
 
 int create_connection(char *host, int port) {
@@ -105,9 +105,7 @@ Buffer* http_query(char *host, char *page, const char *range, int port) {
     }
 
     buffer_free(request);
-
-    printf("%ld\n", recieve->length);
-
+    
     return recieve;    
 }
 
@@ -156,8 +154,6 @@ char* http_get_content(Buffer *response) {
 
     char* header_end = strstr(response->data, "\r\n\r\n");
 
-    printf("%ld\n", response->length);
-
     if (header_end) {
         return header_end + 4;
     }
@@ -203,7 +199,42 @@ Buffer *http_url(const char *url, const char *range) {
  *              to download the resource
  */
 int get_num_tasks(char *url, int threads) {
-   assert(0 && "not implemented yet!");
+    char host[BUF_SIZE];
+
+    strncpy(host, url, BUF_SIZE);
+
+    char *page = strstr(host, "/");
+    if (page) {
+        page[0] = '\0';
+        page++;
+    }
+    else {
+        perror("URL split failed");
+    }
+
+    char request[BUF_SIZE];
+    Buffer *recieve = create_buffer(BUF_SIZE);
+
+
+    snprintf(request, BUF_SIZE-1, HTTP_HEAD, page, host);
+
+    int sockfd = create_connection(host, 80);
+    http_send(request, sockfd);
+
+    http_recieve(recieve, sockfd);
+
+    char *start_content = strstr(recieve->data, "Content-Length: ");
+    start_content += 16;
+    char *end_content = strstr(start_content, "\r\n");
+    end_content++;
+
+    char content_length[BUF_SIZE];
+    memcpy(content_length, start_content, end_content-start_content);
+    int length = atoi(content_length);
+
+    max_chunk_size = (length + threads) / threads;
+
+    return threads;
 }
 
 

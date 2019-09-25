@@ -25,10 +25,13 @@ Content:
 
 int main(int argc, char **argv) {
 
-    if (argc != 3) {
-        fprintf(stderr, "usage: ./http_test host page\n");
+    if (argc != 4) {
+        fprintf(stderr, "usage: ./http_test host page url\n");
         exit(1);
     }
+    int num_streams = get_num_tasks(argv[3], 10);
+
+    printf("Max size: %d, Num Streams: %d\n", get_max_chunk_size(), num_streams);
 
     Buffer *response = http_query(argv[1], argv[2], "", 80);
     if (response) {

@@ -41,7 +41,8 @@ int create_connection(char *host, int port) {
     if(connect(sockfd, addr->ai_addr, addr->ai_addrlen) != 0) {
         perror("Connect");
     }
-    
+
+    freeaddrinfo(addr);    
     return sockfd;
 }
 
@@ -89,7 +90,6 @@ Buffer* http_query(char *host, char *page, const char *range, int port) {
     
     request = create_buffer(BUF_SIZE);
     recieve = create_buffer(BUF_SIZE);
-
     snprintf(request->data, BUF_SIZE-1, HTTP_GET, page, host, range);
     
     sockfd = create_connection(host, port);
@@ -105,7 +105,8 @@ Buffer* http_query(char *host, char *page, const char *range, int port) {
     }
 
     buffer_free(request);
-    
+    close(sockfd);
+
     return recieve;    
 }
 
@@ -223,16 +224,24 @@ int get_num_tasks(char *url, int threads) {
 
     http_recieve(recieve, sockfd);
 
+    if (strstr(recieve->data, "Accept-Ranges: bytes") == NULL) {
+        return 1;
+    }
+
     char *start_content = strstr(recieve->data, "Content-Length: ");
-    start_content += 16;
+    start_content += strlen("Content-Length: ");
     char *end_content = strstr(start_content, "\r\n");
     end_content++;
 
-    char content_length[BUF_SIZE];
-    memcpy(content_length, start_content, end_content-start_content);
+    char content_length[25];
+    strncpy(content_length, start_content, ((size_t)end_content - (size_t)start_content));
     int length = atoi(content_length);
 
-    max_chunk_size = (length + threads) / threads;
+    max_chunk_size = (length / threads) + 1;
+
+    buffer_free(recieve);
+
+    close(sockfd);
 
     return threads;
 }

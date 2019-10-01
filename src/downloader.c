@@ -178,6 +178,16 @@ void wait_task(const char *download_dir, Context *context) {
     free_task(task);
 }
 
+char *get_filename(char *string) {
+    int length = strlen(string)-1;
+    char* end = string+length;
+    printf("String Length: %d\n", length);
+    while (*(end) != '/') {
+        end--;
+    }
+    return end+1;
+}
+
 
 /**
  * Merge all files in from src to file with name dest synchronously
@@ -188,7 +198,23 @@ void wait_task(const char *download_dir, Context *context) {
  * @param tasks - The tasks needed for the multipart download
  */
 void merge_files(char *src, char *dest, int bytes, int tasks) {
-    assert(0 && "not implemented yet!");
+    char buffer[bytes];
+    char src_name[FILE_SIZE];
+    char dest_file[FILE_SIZE];
+    snprintf(dest_file, FILE_SIZE-1, "%s/%s", src, get_filename(dest));
+    printf("Dest File: %s\n", dest_file);
+    FILE *dest_fd = fopen(dest_file, "w+");
+    for (int i = 0; i < tasks; i++) {
+        snprintf(src_name, FILE_SIZE-1, "%s/%d", src, bytes*i);
+        FILE *src_fd = fopen(src_name, "r");
+        size_t read_size = fread(buffer, 1, bytes, src_fd);
+        size_t write_size = fwrite(buffer, 1, read_size, dest_fd);
+        if (write_size < 0) {
+            perror("Write");
+        }
+        fclose(src_fd);
+    }
+    fclose(dest_fd);
 }
 
 
@@ -199,7 +225,15 @@ void merge_files(char *src, char *dest, int bytes, int tasks) {
  * @param files - The number of chunked files to remove.
  */
 void remove_chunk_files(char *dir, int bytes, int files) {
-   assert(0 && "not implemented yet!");
+    char src_name[FILE_SIZE];
+    printf("Num Bytes: %d, No. Files: %d\n", bytes, files);
+    for (int i=0; i<files; i++) {
+        snprintf(src_name, FILE_SIZE-1, "%s/%d", dir, bytes*i);
+        // printf("Removing: %s\n", src_name);
+        if (remove(src_name) != 0) {
+            perror("Remove files");
+        }
+    }
 }
 
 

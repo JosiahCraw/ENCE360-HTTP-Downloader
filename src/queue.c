@@ -20,6 +20,9 @@
  * but it is hidden from the outside.
  */
 typedef struct QueueStruct {
+    sem_t *read, *write, *mutex;
+    void **data;
+    int head, tail, size;
 } Queue;
 
 
@@ -29,7 +32,20 @@ typedef struct QueueStruct {
  * @return queue - Pointer to the allocated queue
  */
 Queue *queue_alloc(int size) {
-    assert(0 && "not implemented yet!");
+    Queue *queue = (Queue*)malloc(sizeof(Queue));
+    queue->data = (void**)malloc(sizeof(void*)*size);
+    queue->read = (sem_t*)malloc(sizeof(sem_t));
+    queue->write = (sem_t*)malloc(sizeof(sem_t));
+    queue->mutex = (sem_t*)malloc(sizeof(sem_t));
+    sem_init(queue->mutex, 0, 1);
+    sem_init(queue->read, 0, 0);
+    sem_init(queue->write, 0, size-1);
+    queue->head = 0;
+    queue->tail = 0;
+
+    queue->size = size;
+
+    return queue;
 }
 
 
@@ -43,7 +59,14 @@ Queue *queue_alloc(int size) {
  * @param queue - Pointer to the queue to free
  */
 void queue_free(Queue *queue) {
-    assert(0 && "not implemented yet!");
+    sem_destroy(queue->mutex);
+    sem_destroy(queue->read);
+    sem_destroy(queue->write);
+    free(queue->read);
+    free(queue->write);
+    free(queue->mutex);
+    free(queue->data);
+    free(queue);
 }
 
 
@@ -59,7 +82,17 @@ void queue_free(Queue *queue) {
  *               it is correctly typed.
  */
 void queue_put(Queue *queue, void *item) {
-    assert(0 && "not implemented yet!");
+    sem_wait(queue->write);
+    sem_wait(queue->mutex);
+    // printf("Started Put data at %d\n", queue->head);
+    *(queue->data+queue->head) = item;
+    // printf("Put data at %d\n", queue->head);
+    queue->head++;
+    if (queue->head >= queue->size-1) {
+        queue->head = 0;
+    }
+    sem_post(queue->mutex);
+    sem_post(queue->read);
 }
 
 
@@ -71,10 +104,27 @@ void queue_put(Queue *queue, void *item) {
  * it will immediately return that item.
  * 
  * @param queue - Pointer to queue to get item from
+ * 
+ * 
+ * 
+ * 
+ * 
  * @return item - item retrieved from queue. void* type since it can be 
  *                arbitrary 
  */
 void *queue_get(Queue *queue) {
-    assert(0 && "not implemented yet!");
+    sem_wait(queue->read);
+    sem_wait(queue->mutex);
+    // printf("Started Pulled data from %d\n", queue->tail);
+    void* item = *(queue->data+queue->tail);
+    // printf("Getting data from %d\n", queue->tail);
+    queue->tail++;
+    if (queue->tail >= queue->size-1) {
+        queue->tail = 0;
+    }
+    sem_post(queue->mutex);
+    sem_post(queue->write);
+
+    return item;
 }
 

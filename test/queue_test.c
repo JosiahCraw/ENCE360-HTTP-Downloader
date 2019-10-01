@@ -20,8 +20,8 @@ void *doSum(void *arg) {
     Task *task = (Task*)queue_get(queue);
     while (task) {
         sum += task->value;
+        
         free(task);
-
         task = (Task*)queue_get(queue);
     }
 
@@ -48,7 +48,6 @@ int main(int argc, char **argv) {
         task->value = i;
 
 
-
         queue_put(queue, task);
         expected += i;
     }
@@ -68,5 +67,6 @@ int main(int argc, char **argv) {
     queue_free(queue);
 
     printf("total sum: %d, expected sum: %d\n", (int)sum, expected);
+    printf("Equal: %s\n", ((int)sum == expected) ? "True" : "False");
     return 0;
 }

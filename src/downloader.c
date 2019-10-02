@@ -183,6 +183,9 @@ char *get_filename(char *string) {
     char* end = string+length;
     printf("String Length: %d\n", length);
     while (*(end) != '/') {
+        if (*end == '?') {
+            *end = '\0';
+        }
         end--;
     }
     return end+1;

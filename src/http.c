@@ -224,10 +224,6 @@ int get_num_tasks(char *url, int threads) {
 
     http_recieve(recieve, sockfd);
 
-    if (strstr(recieve->data, "Accept-Ranges: bytes") == NULL) {
-        return 1;
-    }
-
     char *start_content = strstr(recieve->data, "Content-Length: ");
     start_content += strlen("Content-Length: ");
     char *end_content = strstr(start_content, "\r\n");
@@ -236,6 +232,11 @@ int get_num_tasks(char *url, int threads) {
     char content_length[25];
     strncpy(content_length, start_content, ((size_t)end_content - (size_t)start_content));
     int length = atoi(content_length);
+
+    if (strstr(recieve->data, "Accept-Ranges: bytes") == NULL) {
+        max_chunk_size = length;
+        return 1;
+    }
 
     max_chunk_size = (length / threads) + 1;
 

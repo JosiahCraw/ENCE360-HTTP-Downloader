@@ -78,10 +78,11 @@ void queue_free(Queue *queue) {
 void queue_put(Queue *queue, void *item) {
     sem_wait(&queue->write);
     sem_wait(&queue->mutex);
-    // printf("Started Put data at %d\n", queue->head);
+
     *(queue->data+queue->head) = item;
-    // printf("Put data at %d\n", queue->head);
+
     queue->head = (queue->head + 1) % queue->size;
+    
     sem_post(&queue->mutex);
     sem_post(&queue->read);
 }
@@ -105,6 +106,7 @@ void *queue_get(Queue *queue) {
     void* item = *(queue->data+queue->tail);
 
     queue->tail = (queue->tail+1) % queue->size;
+
     sem_post(&queue->mutex);
     sem_post(&queue->write);
 

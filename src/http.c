@@ -190,6 +190,10 @@ Buffer *http_url(const char *url, const char *range) {
     }
 }
 
+char* splitURL(char *url) {
+
+}
+
 
 /**
  * Makes a HEAD request to a given URL and gets the content length
@@ -233,6 +237,8 @@ int get_num_tasks(char *url, int threads) {
 
     if (strstr(recieve->data, "Accept-Ranges: bytes") == NULL) {
         max_chunk_size = length;
+        buffer_free(recieve);
+        close(sockfd);
         return 1;
     }
 

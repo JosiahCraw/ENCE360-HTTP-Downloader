@@ -216,12 +216,10 @@ int get_num_tasks(char *url, int threads) {
     char request[BUF_SIZE];
     Buffer *recieve = create_buffer(BUF_SIZE);
 
-
     snprintf(request, BUF_SIZE-1, HTTP_HEAD, page, host);
 
     int sockfd = create_connection(host, 80);
     http_send(request, sockfd);
-
     http_recieve(recieve, sockfd);
 
     char *start_content = strstr(recieve->data, "Content-Length: ");

@@ -205,7 +205,6 @@ void merge_files(char *src, char *dest, int bytes, int tasks) {
     char src_name[FILE_SIZE];
     char dest_file[FILE_SIZE];
     size_t read_size, write_size;
-    Buffer *read_buff = create_buffer(bytes);
 
     snprintf(dest_file, FILE_SIZE-1, "%s/%s", src, get_filename(dest));
     printf("Dest File: %s\n", dest_file);
@@ -214,13 +213,12 @@ void merge_files(char *src, char *dest, int bytes, int tasks) {
         snprintf(src_name, FILE_SIZE-1, "%s/%d", src, bytes*i);
         FILE *src_fd = fopen(src_name, "r");
         read_size = fread(buffer, 1, bytes, src_fd);
-        fclose(src_fd);
-        buffer_append(read_buff, buffer, read_size);        
-    };
-    write_size = fwrite(buffer, 1, read_size, dest_fd);
+        write_size = fwrite(buffer, 1, read_size, dest_fd);
         if (write_size < 0) {
             perror("Write");
         }
+        fclose(src_fd);    
+    };
     fclose(dest_fd);
     free(buffer);
 }

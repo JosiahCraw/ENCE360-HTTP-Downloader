@@ -201,23 +201,28 @@ char *get_filename(char *string) {
  * @param tasks - The tasks needed for the multipart download
  */
 void merge_files(char *src, char *dest, int bytes, int tasks) {
-    char buffer[bytes];
+    char *buffer = (char*)malloc(sizeof(char)*bytes);
     char src_name[FILE_SIZE];
     char dest_file[FILE_SIZE];
+    size_t read_size, write_size;
+    Buffer *read_buff = create_buffer(bytes);
+
     snprintf(dest_file, FILE_SIZE-1, "%s/%s", src, get_filename(dest));
     printf("Dest File: %s\n", dest_file);
     FILE *dest_fd = fopen(dest_file, "w+");
     for (int i = 0; i < tasks; i++) {
         snprintf(src_name, FILE_SIZE-1, "%s/%d", src, bytes*i);
         FILE *src_fd = fopen(src_name, "r");
-        size_t read_size = fread(buffer, 1, bytes, src_fd);
-        size_t write_size = fwrite(buffer, 1, read_size, dest_fd);
+        read_size = fread(buffer, 1, bytes, src_fd);
+        fclose(src_fd);
+        buffer_append(read_buff, buffer, read_size);        
+    };
+    write_size = fwrite(buffer, 1, read_size, dest_fd);
         if (write_size < 0) {
             perror("Write");
         }
-        fclose(src_fd);
-    }
     fclose(dest_fd);
+    free(buffer);
 }
 
 
@@ -232,7 +237,6 @@ void remove_chunk_files(char *dir, int bytes, int files) {
     printf("Num Bytes: %d, No. Files: %d\n", bytes, files);
     for (int i=0; i<files; i++) {
         snprintf(src_name, FILE_SIZE-1, "%s/%d", dir, bytes*i);
-        // printf("Removing: %s\n", src_name);
         if (remove(src_name) != 0) {
             perror("Remove files");
         }

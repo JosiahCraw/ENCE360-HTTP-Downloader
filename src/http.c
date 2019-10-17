@@ -46,7 +46,16 @@ int create_connection(char *host, int port) {
     return sockfd;
 }
 
-
+/*
+ * Sends data to an already set up connection, the content 
+ * contains the header and data to send
+ * 
+ * @param content - The content of reques to send
+ * @param sockfd - The socket file discriptor to send the data to
+ * 
+ * @return int - showing if the operation was successful 0 if not 1
+ *               if it was
+ */
 int http_send(char *content, int sockfd) {
     int n = write(sockfd, content, strlen(content));
     if (n < strlen(content)) {

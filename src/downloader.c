@@ -218,7 +218,7 @@ void merge_files(char *src, char *dest, int bytes, int tasks) {
             perror("Write");
         }
         fclose(src_fd);    
-    };
+    }   
     fclose(dest_fd);
     free(buffer);
 }

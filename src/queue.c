@@ -81,6 +81,7 @@ void queue_put(Queue *queue, void *item) {
 
     *(queue->data+queue->head) = item;
 
+    // Move along circular buffer wrapping at queue->size
     queue->head = (queue->head + 1) % queue->size;
     
     sem_post(&queue->mutex);
@@ -105,6 +106,7 @@ void *queue_get(Queue *queue) {
 
     void* item = *(queue->data+queue->tail);
 
+    // Move along circular buffer wrapping at queue->size
     queue->tail = (queue->tail+1) % queue->size;
 
     sem_post(&queue->mutex);

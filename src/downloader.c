@@ -178,11 +178,22 @@ void wait_task(const char *download_dir, Context *context) {
     free_task(task);
 }
 
+/**
+ * Takes in the page name and returns a char array
+ * containg the file name from the last '/' until
+ * a '?' if it exists
+ * 
+ * @param string - The string that the filename is in
+ * 
+ * @return char - The filename with redundant parts removed
+ */
 char *get_filename(char *string) {
     int length = strlen(string)-1;
     char* end = string+length;
     printf("String Length: %d\n", length);
+    // Find last '/'
     while (*(end) != '/') {
+        // Check for query part and end string there
         if (*end == '?') {
             *end = '\0';
         }
@@ -206,19 +217,30 @@ void merge_files(char *src, char *dest, int bytes, int tasks) {
     char dest_file[FILE_SIZE];
     size_t read_size, write_size;
 
+    // Format the destination for the file using location and filename
     snprintf(dest_file, FILE_SIZE-1, "%s/%s", src, get_filename(dest));
     printf("Dest File: %s\n", dest_file);
+
     FILE *dest_fd = fopen(dest_file, "w+");
+
     for (int i = 0; i < tasks; i++) {
         snprintf(src_name, FILE_SIZE-1, "%s/%d", src, bytes*i);
+
         FILE *src_fd = fopen(src_name, "r");
+
+        // Read bytes number of bytes from src_fd
         read_size = fread(buffer, 1, bytes, src_fd);
+
+        // Write the number the number of bytes read to the buffer
         write_size = fwrite(buffer, 1, read_size, dest_fd);
         if (write_size < 0) {
             perror("Write");
         }
+        // Close source file before moving to next
         fclose(src_fd);    
-    }   
+    }  
+
+    // Close and free objects 
     fclose(dest_fd);
     free(buffer);
 }
@@ -233,8 +255,13 @@ void merge_files(char *src, char *dest, int bytes, int tasks) {
 void remove_chunk_files(char *dir, int bytes, int files) {
     char src_name[FILE_SIZE];
     printf("Num Bytes: %d, No. Files: %d\n", bytes, files);
+
     for (int i=0; i<files; i++) {
+
+        // Get the source file name
         snprintf(src_name, FILE_SIZE-1, "%s/%d", dir, bytes*i);
+
+        // Remove the file
         if (remove(src_name) != 0) {
             perror("Remove files");
         }

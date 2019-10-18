@@ -9,12 +9,6 @@ typedef struct {
 
 } Buffer;
 
-int create_connection(char *host, int port);
-
-int http_send(char *content, int sockfd);
-
-int http_recieve(Buffer *buffer, int sockfd);
-
 /**
  * Perform an HTTP 1.0 query to a given host and page and port number.
  * host is a hostname and page is a path on the remote server. The query
@@ -29,12 +23,6 @@ int http_recieve(Buffer *buffer, int sockfd);
  *                  NULL is returned on failure.
  */
 Buffer* http_query(char *host, char *page, const char *range, int port);
-
-Buffer* create_request(Buffer *buffer, char *host, char *page, char *range);
-
-Buffer* create_buffer(size_t length);
-
-void buffer_append(Buffer *buffer, char *data, size_t length);
 
 /**
  * Separate the content from the header of an http request.

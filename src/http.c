@@ -14,6 +14,18 @@
 #define HTTP_HEAD "HEAD /%s HTTP/1.0\r\nHost: %s\r\n\r\n"
 
 
+int create_connection(char *host, int port);
+
+int http_send(char *content, int sockfd);
+
+int http_recieve(Buffer *buffer, int sockfd);
+
+Buffer* create_request(Buffer *buffer, char *host, char *page, char *range);
+
+Buffer* create_buffer(size_t length);
+
+void buffer_append(Buffer *buffer, char *data, size_t length);
+
 /**
  * Creates a TCP socket from a given host and port and gives
  * the file descriptor for the socket
